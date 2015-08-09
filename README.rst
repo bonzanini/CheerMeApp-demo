@@ -11,7 +11,11 @@ Also see "Known Limitations" below.
 Installation
 ------------
 
-The app assumes Elasticsearch is running locally (localhost:9200).
+Assumptions:
+
+* Elasticsearch is running locally (localhost:9200)
+* Tested on Python 3.4
+* Use virtualenv to install Python dependencies
 
 Clone repo, install virtualenv, install Python dependencies::
 

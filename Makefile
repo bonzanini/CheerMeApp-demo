@@ -20,7 +20,7 @@ backend::
 
 .PHONY=index
 index::
-	curl -s -XDELETE http://localhost:9200/cheermeapp; echo;
-	curl -s -XPOST http://localhost:9200/cheermeapp -d @mapping.json; echo
-	curl -s -XPOST http://localhost:9200/_bulk --data-binary @data/beers.data; echo
+	curl -XDELETE http://localhost:9200/cheermeapp; echo;
+	curl -XPOST http://localhost:9200/cheermeapp -d @mapping.json; echo
+	curl -XPOST http://localhost:9200/_bulk --data-binary @data/beers.data; echo
 
