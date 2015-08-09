@@ -13,13 +13,15 @@ Installation
 
 The app assumes Elasticsearch is running locally (localhost:9200).
 
-Using a local virtualenv, install Python dependencies::
+Clone repo, install virtualenv, install Python dependencies::
 
+    git clone https://github.com/bonzanini/CheerMeApp-demo
+    cd CheerMeApp-demo
     virtualenv venv
     source ./venv/bin/activate
     pip install -r requirements.txt
 
-Create basic database::
+Create basic database (use data from `data/beers.data`)::
 
     make index
 
@@ -35,6 +37,8 @@ Point your browser to::
 
     http://localhost:8000
 
+and search for a beer.
+
 Known Limitations
 -----------------
 
@@ -42,9 +46,11 @@ Known Limitations
   doesn't refresh correctly.
 - When the search bar is emptied, previous results are not cleared
   until a new search is issued.
-- No functionality to edit items.
-- No functionality to insert/edit/delete styles/categories.
+- No functionality to edit items yet.
+- No functionality to insert/edit/delete styles/categories yet.
 - UI: should ask "Are you very very sure?" before deleting items.
+- No caching (each keystroke is an Elasticsearch query) yet.
+- No pagination yet.
 
 License
 -------
