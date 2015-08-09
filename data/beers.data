@@ -1,0 +1,28 @@
+{"index": {"_index": "cheermeapp", "_type": "beers"}}
+{"name": "Raspberry Wheat", "styles": ["Wheat Ale", "Fruit Beer"], "abv": 5.0, "producer": "Meantime London", "description": "Based on a pale, lightly hopped wheat beer, the refreshingly crisp fruitiness, aroma and rich colour come from the addition of fresh raspberry puree during maturation."}
+{"index": {"_index": "cheermeapp", "_type": "beers"}}
+{"name": "Punk IPA", "styles": ["India Pale Ale (IPA)"], "abv": 5.6, "producer": "BrewDog", "description": "This 5.6% trans-atlantic fusion IPA is light golden in colour with tropical fruits and light caramel on the nose. The palate soon becomes assertive and resinous with the New Zealand hops balanced by the biscuit malt. The finish is aggressive and dry with the hops emerging over the warming alcohol. This fresh, full flavour natural beer is our tribute to the classic IPAs of yester-year. The post modern twist is the addition of amazing fruity hops giving an explosion of tropical fruit flavours and a sharp bitter finish."}
+{"index": {"_index": "cheermeapp", "_type": "beers"}}
+{"name": "This. Is. Lager.", "styles": ["Lager"], "abv": 4.7, "producer": "BrewDog", "description": "Brewed with 100% malt, ten times the hops of most industrial lagers and cold-conditioned for five weeks, this spicy, robust Pilsner is lager reborn. Expect a robust, full-bodied malt character on the front of the tongue, spicy citrus notes as it goes back through the palate and an assertive bitter finish with a lemon and pepper character to round things off. Reclaimed. Perfected. Renewed. This. Is. Lager."}
+{"index": {"_index": "cheermeapp", "_type": "beers"}}
+{"name": "Shoreditch Triangle IPA", "styles": ["India Pale Ale (IPA)"], "abv": 6.0, "producer": "London Fields Brewery", "description": "Barley Oat and Wheat were sitting by a shady tree out in the countryside when Columbus and a Chinook Indian from the Centennial days of America came into sight. Barley said to Oat and Wheat “how is that possible?”, Columbus and the Indian said something about heading to Shoreditch in London. The rest is history. That’s the short version, for the long version, drink this beer and everything will become clear."}
+{"index": {"_index": "cheermeapp", "_type": "beers"}}
+{"name": "Black Path Porter", "styles": ["Porter"], "abv": 4.2, "producer": "London Fields Brewery", "description": "Named after a historic trading route steeped in legend and protected by an ancient templar, that runs from Walthamstow to Smithfield’s and passes directly behind our brewery. Our Braumaster likes to think he has been hearing whispers from the ancient Porters who travelled this route. He swears they spoke of a malty black brew, full of coffee and chocolate flavours that warmed the cockles after the long journey."}
+{"index": {"_index": "cheermeapp", "_type": "styles"}}
+{"name": "Lager"}
+{"index": {"_index": "cheermeapp", "_type": "styles"}}
+{"name": "Pale Ale"}
+{"index": {"_index": "cheermeapp", "_type": "styles"}}
+{"name": "Bitter Ale"}
+{"index": {"_index": "cheermeapp", "_type": "styles"}}
+{"name": "Stout"}
+{"index": {"_index": "cheermeapp", "_type": "styles"}}
+{"name": "India Pale Ale (IPA)"}
+{"index": {"_index": "cheermeapp", "_type": "styles"}}
+{"name": "Porter"}
+{"index": {"_index": "cheermeapp", "_type": "styles"}}
+{"name": "Sour Ale"}
+{"index": {"_index": "cheermeapp", "_type": "styles"}}
+{"name": "Wheat Ale"}
+{"index": {"_index": "cheermeapp", "_type": "styles"}}
+{"name": "Fruit Beer"}

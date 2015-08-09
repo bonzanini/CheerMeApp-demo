@@ -1,0 +1,46 @@
+<h1>Insert New Beer</h1>
+
+<form novalidate="novalidate" class="form-horizontal">
+    <div class="control-group">
+        <label class="control-label" for="name">Beer name:</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="name" ng-model="beer.name"/>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="producer">Producer:</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="producer" ng-model="beer.producer"/>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="abv">ABV (%):</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="abv" ng-model="beer.abv"/>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="styles">Styles:</label>
+        <div class="controls">
+            <label ng-repeat="style in styles">
+            <input type="checkbox" name="styles[]" id="styles_{{style.name}}" ng-model="style.checked" value="{{style.name}}"> {{style.name}}
+            </label>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="description">Description:</label>
+        <div class="controls">
+            <textarea id="description" class="form-control" ng-model="beer.description" rows="5"></textarea>
+        </div>
+    </div>
+    <div class="control-group" style="margin-top: 30px;">
+        <div class="controls">
+<!-- 
+            <a ng-click="updateUser()" class="btn btn-small btn-primary">update user</a>
+-->
+
+            <a ng-click="insertBeer()" class="btn btn-small btn-primary">Save</a>
+            <a ng-click="cancel()" class="btn btn-small">Cancel</a>
+        </div>
+    </div>
+</form>
