@@ -8,12 +8,15 @@ in AngularJS + Flask + Elasticsearch.
 Please notice this is **experimental** (use at your own risk).
 Also see "Known Limitations" below.
 
+I also wrote a `blog post <http://marcobonzanini.com/2015/08/10/building-a-search-as-you-type-feature-with-elasticsearch-angularjs-and-flask>`_ about this, that walks you through the code.
+
 Installation
 ------------
 
 Assumptions:
 
 * Elasticsearch is running locally (localhost:9200)
+* Tested on Elasticsearch 1.* (the mapping doesn't work on Elasticsearch 2.*)
 * Tested on Python 3.4
 * Use virtualenv to install Python dependencies
 
@@ -55,6 +58,7 @@ Known Limitations
 - UI: should ask "Are you very very sure?" before deleting items.
 - No caching (each keystroke is an Elasticsearch query) yet.
 - No pagination yet.
+- Elasticsearch 2.* is not yet supported
 
 License
 -------
